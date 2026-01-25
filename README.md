@@ -1,7 +1,7 @@
 # WAF Bypass via DNS History
 A modernized, refactored, and safer Bash script to detect origin IPs behind Web Application Firewalls (WAF) by analyzing historical DNS records.
 
-> **Note:** This is a heavily refactored version of the classic `bypass-firewalls-by-DNS-history` script. If fixes broken APIs, improves concurrency, handles HTTP/HTTPS fallbacks gracefully, and manages temporary files securely.
+> **Note:** This is a heavily refactored version of the classic `bypass-firewalls-by-DNS-history` script, [link here](https://github.com/Elsfa7-110/bypass-firewalls-by-DNS-history). If fixes broken APIs, improves concurrency, handles HTTP/HTTPS fallbacks gracefully, and manages temporary files securely.
 
 # 🚀 How it Works
 When a website moves behind a WAF (like Cloudflare, Incapsula, or AWS WAF), the DNS records change to point to the WAF's IP addresses. However, the original server (the "Origin") often keeps its public IP.
